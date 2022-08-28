@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Minecraft';
+    src: url('MinecraftRegular.otf') format('opentype');
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Minecraft', sans-serif;
+    background-color: #121212;
+    color: #fff;
+}
+
+.about-me {
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20%;
+    margin-right: 15%;
+    margin-left: 15%;
+
+}
+
+.links ul {
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+}
+
+.links ul li {
+    list-style: none;
+}
+
+.links ul li a {
+    justify-content: space-between;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 25px;
+    padding: 6px 15px;
+    transition: .64s;
+}
+
+.links ul li a:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+.intro a {
+    text-decoration: underline;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.intro a:hover {
+    text-decoration: underline;
+    color: #555;
+}
+
+.Username {
+    letter-spacing: 3px;
+}
+
+.use-computer {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .use-computer {
+        display: contents;
+    }
+}
+
+footer {
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
