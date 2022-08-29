@@ -56,11 +56,15 @@ body {
 }
 
 .Username {
-    letter-spacing: 3px;
+    letter-spacing: 1px;
 }
 
 .use-computer {
     display: none;
+}
+
+.flyte {
+    text-decoration: line-through;
 }
 
 @media (max-width: 600px) {
