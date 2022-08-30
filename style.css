@@ -48,20 +48,16 @@ body {
 }
 
 .intro a:hover {
-    text-decoration: underline;
     color: #555;
 }
 
 .Username {
     letter-spacing: 1px;
+    color: #FFAA00;
 }
 
 .use-computer {
     display: none;
-}
-
-.flyte {
-    text-decoration: line-through;
 }
 
 @media (max-width: 600px) {
